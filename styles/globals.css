@@ -1,9 +1,9 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -87,12 +87,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #fa824c;
 }
 
 a {
@@ -104,4 +99,36 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+/* Custom */
+
+h1 {
+  width: 80vw;
+  background-color: #242f40;
+  color: #ddd;
+  font-size: 3.2rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+select,
+button {
+  width: 80vw;
+  background-color: #242f40;
+  color: #ddd;
+  font-size: 1.5rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+select:hover,
+button:hover {
+  background-color: #6f89ae;
 }

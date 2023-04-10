@@ -1,0 +1,29 @@
+.questionBox {
+  width: 80vw;
+  background-color: #242f40;
+  color: #ddd;
+  font-size: 1.5rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.questionText {
+  font-size: 2rem;
+}
+
+.liQuestion {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  list-style: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  height: 3rem;
+  transition: all 0.03s;
+}
+
+.liQuestion:hover {
+  background-color: #6f89ae;
+}
